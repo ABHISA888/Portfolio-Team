@@ -1,12 +1,14 @@
 import React from "react";
 import "./Home.css";
-import '../App.css'
+// import '../App.css';
 const Home = () => {
   return (
     <div className="home-container">
       {/* Navigation Bar */}
       <nav className="navbar">
         <button className="nav-button active">Home</button>
+        <button className="nav-button">Mentors</button>
+        <button className="nav-button">Kalvians</button>
         <button className="nav-button">Our memories</button>
         <button className="nav-button">Projects</button>
       </nav>

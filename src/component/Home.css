@@ -6,8 +6,11 @@
 }
 
 html, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
-  padding: 0;
+  padding:0;
   height: 100%;
   overflow: hidden; /* Prevents unwanted scrolling */
 }
@@ -25,6 +28,7 @@ html, body {
 .navbar {
   display: flex;
   justify-content: center;
+  /* align-items: center; */
   gap: 20px;
   padding: 15px;
   background-color: #1c1c1c;

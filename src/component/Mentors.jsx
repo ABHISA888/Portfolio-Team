@@ -1,16 +1,15 @@
 import React from "react";
 import "./Mentors.css";
+import "../App.css";
 
 const mentors = [
   {
     name: "Ajay Balasubramaniam",
     role: "Program Mentor",
-    // image: "https://via.placeholder.com/150", // Replace with actual image URL
   },
   {
     name: "Sibishree Maragathavel",
     role: "Technical Mentor",
-    // image: "https://via.placeholder.com/150", // Replace with actual image URL
   },
 ];
 
